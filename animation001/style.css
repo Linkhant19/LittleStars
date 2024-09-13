@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+p {
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.star {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    margin-left:70vw;
+    margin-top: 20vh;
+    width: 5vw;
+}
+
+.star:hover {
+    opacity: 1;
+}
