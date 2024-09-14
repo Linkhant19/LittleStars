@@ -17,6 +17,17 @@ p {
     width: 5vw;
 }
 
-.star:hover {
+.star.visible {
+    opacity: 1;
+}
+
+.found-text {
+    font-style: normal;
+    margin-left: 70vw;
+    margin-top: 5vh;
+    opacity: 0;
+}
+
+.found-text.visible {
     opacity: 1;
 }
