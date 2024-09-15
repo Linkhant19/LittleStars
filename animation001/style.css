@@ -2,6 +2,8 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 30px;
+    /* added the cursor image */
+    cursor: url('./images/wand.cur') 50 50, auto;
 }
 
 p {
